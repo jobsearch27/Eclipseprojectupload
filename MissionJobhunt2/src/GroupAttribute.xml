@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GroupAttribute" parallel="false">
+  <test name="Test">
+      <groups>
+          <run>
+              <include name ="Sanity" >
+          </run>
+      </groups>
+    <classes>
+      <class name="UnderstandingTestNGFramework.GroupAttribute"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

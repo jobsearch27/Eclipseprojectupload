@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UnderstandingTestNG" parallel="false">
+	<test name="SanityTest">
+		<classes>
+			<class name="UnderstandingTestNGFramework.Abcd" />
+
+			<class name="UnderstandingTestNGFramework.Xyz" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
